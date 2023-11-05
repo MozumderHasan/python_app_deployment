@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Set the database connection parameters.
+db_connection={
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "H12345",
+    "database": "collection",
+    "table": "documents"
+}
+
+# Start the Streamlit subapplication.
+(workon streamlit_app && streamlit run app3.py) &
