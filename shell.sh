@@ -13,19 +13,19 @@ gnome-terminal -e "./shellFast.sh" &
 # Go to the second directory.
 cd ..
 cd python-micro-service
-gnome-terminal -e "./shellmain.sh" &
+gnome-terminal -e "./shellmain.sh"
 # Go to the second directory.
-cd document_app
+# cd document_app
 
-gnome-terminal -e "./shellapp3.sh" &
-# Go to the third directory.
-cd ..
-cd music_app
-gnome-terminal -e "./shellapp2.sh" &
-# Go to the fourth directory.
-cd ..
-cd post_app
-gnome-terminal -e "./shellapp1.sh"
+# gnome-terminal -e "./shellapp3.sh" &
+# # Go to the third directory.
+# cd ..
+# cd music_app
+# gnome-terminal -e "./shellapp2.sh" &
+# # Go to the fourth directory.
+# cd ..
+# cd post_app
+# gnome-terminal -e "./shellapp1.sh"
 
 
 
